@@ -1,0 +1,102 @@
+/*Medias --------------------------------- */
+@media only screen and (max-width: 991px) {
+    .logo {
+        width: 50%;
+        margin: auto;
+    }
+    .col-md-6 {
+        display: inline-table;
+    }
+    .subtitle {
+    font-weight: 300;
+    font-size: 22px;
+    color: #CCA60D;
+    }
+    .title-super {
+        font-size: 30px
+    }
+    .hover {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+}
+/*css basic --------------------------------- */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+}
+.header {
+    position: sticky;
+}
+
+.hover {
+  height: 100%;
+  width: 100%;
+}
+/*css for Text --------------------------------- */
+.text-thin {
+	font-weight: 100;
+}
+
+.text-secondtitle {
+	padding-left:2%;
+	color: #CCA60D;
+	font-weight:400;
+	font-size: 38px;
+	margin-top: 1em;
+}
+
+.text-link {
+	color: #404040;
+	font-size: 16px;
+	padding: 1em;
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px
+}
+.description-project {
+	font-size: 38px;
+	font-weight: 400;
+    color: #CCA60D;
+}
+
+.subtitle {
+	font-weight: 300;
+	font-size: 22px;
+    color: #CCA60D;
+}
+
+/*css for images --------------------------------- */
+.title-logo {
+	margin-top: 1.5em;
+}
+.hover img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.hover:hover img {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+     opacity: 0.8;
+}
+
+
+/*css for other elements --------------------------*/
+
+hr {
+    border: none;
+    height: 5px;
+    color: #BCBBBB; /* old IE */
+    background-color: #BCBBBB; /* Modern Browsers */
+    margin-top: 0.2em;
+    margin-bottom: 2.2em;
+}
