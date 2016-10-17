@@ -31,6 +31,12 @@ body {
     font-family: 'Lato', sans-serif;
     color: #404040;
 }
+
+footer {
+    padding-top: 20px;
+    background-color: #C0C0C0;
+}
+
 .header {
     position: sticky;
     border-bottom-style: solid;
@@ -40,6 +46,13 @@ body {
 .hover {
     height: 100%;
     width: 100%;
+}
+
+.copi {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 /*css for Text --------------------------------- */
